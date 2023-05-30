@@ -16,3 +16,5 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
     
+if __name__ == "__main__":
+    print("Hello!!")
